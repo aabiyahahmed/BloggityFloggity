@@ -16,7 +16,7 @@ Bloggity is a full-stack blogging platform built with Next.js, tRPC, Drizzle ORM
 
 ## Tech Stack
 
-- Frontend: Next.js 14 (App Router)  
+- Frontend: Next.js 15 (App Router)  
 - Backend: tRPC + Drizzle ORM  
 - Database: PostgreSQL (via Supabase or local instance)  
 - UI: TailwindCSS + shadcn/ui  
@@ -90,5 +90,6 @@ Each router defines procedures (public or protected) and communicates with Drizz
 
 This project is for educational purposes only.  
 © 2025 Bloggity by Aabiyah Ahmed
+
 
 
