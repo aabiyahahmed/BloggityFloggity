@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function HomePage() {
   return (
     <div className="flex flex-col min-h-screen">
@@ -8,18 +10,18 @@ export default function HomePage() {
           A place to share your ideas, discover inspiring posts, and grow your writing journey.
         </p>
         <div className="mt-10 flex justify-center gap-4">
-          <a
+          <Link
             href="/posts"
             className="px-6 py-3 bg-white text-gray-900 rounded-lg font-medium hover:bg-gray-200 transition"
           >
             Explore Posts
-          </a>
-          <a
+          </Link>
+          <Link
             href="/dashboard"
             className="px-6 py-3 border border-gray-400 rounded-lg font-medium text-white hover:bg-gray-700 transition"
           >
             Go to Dashboard
-          </a>
+          </Link>
         </div>
       </header>
 
