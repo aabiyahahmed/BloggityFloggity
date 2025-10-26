@@ -32,7 +32,7 @@ export const postsRouter = router({
         postsMap.set(row.id, {
           id: row.id,
           title: row.title,
-          content: row.content,
+          content: row.content?? "",
           slug: row.slug,
           published: row.published,
           categories: [],
@@ -75,9 +75,9 @@ export const postsRouter = router({
       const categoriesList = result
         .filter((r) => r.category)
         .map((r) => ({
-          id: r.category.id,
-          name: r.category.name,
-          slug: r.category.slug,
+              id: r.category!.id,
+              name: r.category!.name,
+              slug: r.category!.slug,
         }));
 
       return { id, title, content, createdAt, slug, published, categories: categoriesList };

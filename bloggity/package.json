@@ -43,6 +43,7 @@
     "@tailwindcss/postcss": "^4.1.15",
     "@tailwindcss/postcss7-compat": "^2.2.17",
     "@types/node": "^20",
+    "@types/pg": "^8.15.5",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "autoprefixer": "^10.4.21",
